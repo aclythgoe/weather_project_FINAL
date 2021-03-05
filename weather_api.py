@@ -1,10 +1,6 @@
 #Import necessary tools 
 import time
 import requests
-
-
-#Import Requests for weather API and JSON 
-import requests
 import json
 
 
