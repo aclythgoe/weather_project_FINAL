@@ -17,7 +17,7 @@ class WeatherInformation:
     #Get weather based on city name.
     def get_weather_cityname(self):
         self.city_name = input("\nPlease enter the name of your city: ")
-        url = 'https://api.openweathermap.org/data/2.5/weather?q={}&appid=8ba60d976d201bf3f8c60673f08ca278'.format(self.city_name)
+        url = 'https://api.openweathermap.org/data/2.5/weather?q={},us&units=imperial&appid=8ba60d976d201bf3f8c60673f08ca278'.format(self.city_name)
         self.forecast = requests.get(url)
 
          #Connection Test
