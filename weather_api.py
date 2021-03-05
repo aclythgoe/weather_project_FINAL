@@ -83,6 +83,7 @@ while True:
         break
     else:
         print ("\nERROR: Try again, 'start' is case sensitive.")
+        active = False
         break
 
 while active:
@@ -112,4 +113,4 @@ while active:
             print("Shutting down...")
             time.sleep(3)
             print("Shutdown succesful.")
-            break  
+            break 
